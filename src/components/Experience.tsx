@@ -9,7 +9,8 @@ import {
   MapPin, 
   CheckCircle2, 
   Award, 
-  Building2
+  Building2,
+  FileText
 } from 'lucide-react';
 
 interface ExperienceProps {
@@ -24,14 +25,27 @@ export const Experience: React.FC<ExperienceProps> = ({ isRtl }) => {
       <div className="max-w-5xl mx-auto space-y-12">
         
         {/* Header */}
-        <div className="space-y-1">
-          <p className="section-number">03 — Experience</p>
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-100 tracking-tight">
-            {t('experience.title')}
-          </h2>
-          <p className="text-slate-400 text-sm max-w-2xl">
-            {t('experience.subtitle')}
-          </p>
+        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+          <div className="space-y-1">
+            <p className="section-number">03 — Experience</p>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-100 tracking-tight">
+              {t('experience.title')}
+            </h2>
+            <p className="text-slate-400 text-sm max-w-2xl">
+              {t('experience.subtitle')}
+            </p>
+          </div>
+
+          <a
+            href="/files/Badr_Al-deen_Rasea_CV-sumi-final.pdf"
+            download="Badr_Al-deen_Rasea_CV.pdf"
+            target="_blank"
+            rel="noreferrer"
+            className="shrink-0 self-start sm:self-auto px-4 py-2.5 rounded-xl bg-slate-850 hover:bg-slate-800 text-cyan-300 border border-cyan-500/30 hover:border-cyan-400 text-xs font-semibold transition-all flex items-center gap-2 shadow-sm"
+          >
+            <FileText className="w-4 h-4 text-cyan-400" />
+            <span>{t('experience.downloadCv')}</span>
+          </a>
         </div>
 
         {/* WORK EXPERIENCE TIMELINE */}

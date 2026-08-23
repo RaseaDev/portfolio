@@ -194,7 +194,8 @@ export const Hero: React.FC<HeroProps> = ({ setActiveSection, isRtl }) => {
           </button>
 
           <a
-            href="mailto:Badraldeenrasea@gmail.com?subject=Requesting%20CV%20/%20Resume%20-%20Badr%20Al-deen%20Rasea"
+            href="/files/Badr_Al-deen_Rasea_CV-sumi-final.pdf"
+            download="Badr_Al-deen_Rasea_CV.pdf"
             target="_blank"
             rel="noreferrer"
             className="px-6 py-3.5 rounded-xl bg-slate-900/80 hover:bg-slate-850 text-cyan-400 border border-cyan-500/30 hover:border-cyan-400 text-sm font-semibold transition-all flex items-center justify-center gap-2"

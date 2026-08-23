@@ -100,7 +100,7 @@ const resources = {
         timelineTitle: "Engineering Roles",
         educationTitle: "Education & Certifications",
         personalSkillsTitle: "Engineering Competencies",
-        downloadCv: "Download Full CV (PDF/Docx)"
+        downloadCv: "Download Full CV (PDF)"
       },
       contact: {
         title: "Get In Touch",
