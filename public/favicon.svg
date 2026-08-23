@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <rect width="100" height="100" rx="24" fill="#0A0D14"/>
+  <rect x="2" y="2" width="96" height="96" rx="22" stroke="url(#grad_border)" stroke-width="2"/>
+  <path d="M30 25H55C66.0457 25 75 33.9543 75 45C75 51.5 71.8 57.25 66.8 60.8C72.8 64.5 77 71.2 77 78.8C77 90.5 67.5 100 55.8 100" stroke="none"/>
+  <!-- Custom Badr Monogram -->
+  <path d="M32 26H52C60.2843 26 67 32.7157 67 41C67 49.2843 60.2843 56 52 56H32V26Z" stroke="url(#cyan_grad)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M32 56H55C63.8366 56 71 63.1634 71 72C71 80.8366 63.8366 88 55 88H32V56Z" stroke="url(#violet_grad)" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="32" cy="26" r="3" fill="#06B6D4"/>
+  <circle cx="32" cy="88" r="3" fill="#8B5CF6"/>
+  <defs>
+    <linearGradient id="grad_border" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06B6D4"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="cyan_grad" x1="32" y1="26" x2="67" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="violet_grad" x1="32" y1="56" x2="71" y2="88" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+</svg>
